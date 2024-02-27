@@ -16,7 +16,7 @@ app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 
 const corsOptions = {
-  origin: "https://ati-erp-system.vercel.app/",
+  origin: "https://ati-erp-system.vercel.app",
   credentials: true,
 };
 app.use(cors(corsOptions));
