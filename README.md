@@ -1,4 +1,4 @@
-# ATI ERP
+# ATI ERP System
 
 ATI ERP using MERN Stack
 
